@@ -4,7 +4,7 @@ Página web de portfólio desenvolvida do zero com HTML e CSS puro, hospedada vi
 
 ## 🚀 Acesse
 
-👉 [joaquimguellis.github.io/WebPage-for-me](https://joaquimguellis.github.io/WebPage-for-me) *mudar mais para frente*
+👉 [https://github.com/joaquimGuellis/MyWebPage-Projeto](https://github.com/joaquimGuellis/MyWebPage-Projeto) 
 
 ## 🛠️ Tecnologias
 
@@ -18,6 +18,11 @@ Página web de portfólio desenvolvida do zero com HTML e CSS puro, hospedada vi
 Portfólio criado para apresentar meus projetos e habilidades enquanto construo minha trajetória na área de tecnologia. Estudante de **Análise e Desenvolvimento de Sistemas** na Universidade São Judas Tadeu.
 
 ## 📂 Estrutura
+
+MyWebPage-Projeto/
+├── index.html
+├── Style.css
+└── README.md
 
 ## 📬 Contato
 
