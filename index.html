@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joaquim — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- CURSOR PERSONALIZADO -->
+  <div class="cursor"></div>
+  <div class="cursor-trail"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-logo">&lt;JQ /&gt;</div>
+    <ul class="nav-links">
+      <li><a href="#sobre">sobre</a></li>
+      <li><a href="#certificacoes">certificações</a></li>
+      <li><a href="#habilidades">skills</a></li>
+      <li><a href="#projetos">projetos</a></li>
+      <li><a href="#contato">contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <p class="hero-greeting">// olá, mundo 👋</p>
+      <h1 class="hero-title">
+        Joaquim<br />
+        <span class="highlight">Guellis</span>
+      </h1>
+      <p class="hero-sub">Estudante de <span class="tag">ADS</span> · Dev em formação · Apaixonado por código</p>
+      <div class="hero-btns">
+        <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
+        <a href="#contato" class="btn btn-outline">Falar comigo</a>
+      </div>
+    </div>
+    <div class="hero-code-block">
+      <div class="code-header">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+        <span class="code-filename">perfil.js</span>
+      </div>
+      <pre class="code-body"><code><span class="c-purple">const</span> <span class="c-green">joaquim</span> = {
+  <span class="c-cyan">curso</span>: <span class="c-yellow">"ADS"</span>,
+  <span class="c-cyan">faculdade</span>: <span class="c-yellow">"São Judas Tadeu"</span>,
+  <span class="c-cyan">foco</span>: [
+    <span class="c-yellow">"Cyber-Security"</span>,
+    <span class="c-yellow">"Data"</span>,
+    <span class="c-yellow">"Backend"</span>
+    <span class="c-purple">"Coffe"</span>
+  ],
+  <span class="c-cyan">disponivel</span>: <span class="c-purple">true</span>
+};</code></pre>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="sobre" id="sobre">
+    <div class="container">
+      <div class="section-label">// sobre mim</div>
+      <h2 class="section-title">Quem sou eu<span class="c-pink">?</span></h2>
+      <div class="sobre-grid">
+        <div class="sobre-text">
+          <p>
+            Sou estudante de <strong>Análise e Desenvolvimento de Sistemas</strong> na
+            Universidade São Judas Tadeu, Campus Mooca. Entrei em 2026 com previsão de
+            me formar em julho de 2028.
+          </p>
+          <p>
+            Estou construindo minha base em programação com foco em <strong>CiberSegurança</strong>
+            e <strong>dados</strong>. Gosto de aprender na prática — cada projeto é uma oportunidade de
+            evoluir.
+          </p>
+          <p>
+            Atualmente buscando minha primeira <strong>oportunidade de estágio</strong>
+            .
+          </p>
+        </div>
+        <div class="sobre-stats">
+          <div class="stat-card">
+            <span class="stat-num c-green">2026</span>
+            <span class="stat-label">Ingresso na faculdade</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num c-pink">2028</span>
+            <span class="stat-label">Previsão de formatura</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num c-cyan">∞</span>
+            <span class="stat-label">Vontade de aprender</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num c-yellow">01</span>
+            <span class="stat-label">Estágio buscado</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICAÇÕES -->
+<section id="certificacoes" class="certificacoes">
+  <div class="certificacoes-inner">
+    <p class="section-label">// conquistas</p>
+    <h2 class="section-title">Certificações<span class="dot">.</span></h2>
+
+    <div class="cert-grid">
+
+      <div class="cert-card">
+        <span class="cert-icon">🛡️</span>
+        <h3>Hackers do Bem</h3>
+        <p>Nivelamento em Cibersegurança</p>
+        <p class="cert-modulo">📍 Módulo atual: Nivelamento</p>
+      </div>
+
+      <div class="cert-card">
+        <span class="cert-icon">💻</span>
+        <h3>Hack The Box</h3>
+        <p>Pre-Security Path</p>
+        <span class="cert-status em-andamento">Em andamento</span>
+      </div>
+
+      <div class="cert-card">
+        <span class="cert-icon">🎓</span>
+        <h3>Análise e Desenvolvimento de Sistemas</h3>
+        <p>Universidade São Judas Tadeu</p>
+        <span class="cert-status em-andamento">Cursando — previsão 2028</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- HABILIDADES -->
+  <section class="habilidades" id="habilidades">
+    <div class="container">
+      <div class="section-label">// tecnologias</div>
+      <h2 class="section-title">Minhas Skills<span class="c-pink">.</span></h2>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-icon">☕</div>
+          <div class="skill-name">Java</div>
+          <div class="skill-bar"><div class="skill-fill" style="--w: 50%"></div></div>
+          <div class="skill-level">Iniciante</div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🌐</div>
+          <div class="skill-name">HTML</div>
+          <div class="skill-bar"><div class="skill-fill" style="--w: 60%"></div></div>
+          <div class="skill-level">Básico</div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🎨</div>
+          <div class="skill-name">CSS</div>
+          <div class="skill-bar"><div class="skill-fill" style="--w: 50%"></div></div>
+          <div class="skill-level">Básico</div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🐍</div>
+          <div class="skill-name">Python</div>
+          <div class="skill-bar"><div class="skill-fill" style="--w: 40%"></div></div>
+          <div class="skill-level">Iniciante</div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🐧</div>
+          <div class="skill-name">Linux</div>
+          <div class="skill-bar"><div class="skill-fill" style="--w: 40%"></div></div>
+          <div class="skill-level">Iniciante</div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🗄️</div>
+          <div class="skill-name">SQL</div>
+          <div class="skill-bar"><div class="skill-fill" style="--w: 40%"></div></div>
+          <div class="skill-level">Iniciante</div>
+        </div>
+
+        <!-- Skils -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section class="projetos" id="projetos">
+    <div class="container">
+      <div class="section-label">// meu trabalho</div>
+      <h2 class="section-title">Projetos<span class="c-pink">.</span></h2>
+      <div class="projects-grid">
+
+        <!-- PROJETO 1 —  -->
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">ReportLab</span>
+          </div>
+          <h3 class="project-title">Gerador de Currículo PDF</h3>
+          <p class="project-desc">
+            Script Python que gera um currículo profissional em PDF otimizado para sistemas ATS,
+            usando a biblioteca ReportLab.
+          </p>
+          <div class="project-footer">
+            <a href="#" class="project-link">Ver código →</a>
+          </div>
+        </div>
+
+        <!-- PROJETO 2 —  -->
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Java</span>
+            <span class="project-tag">NetBeans</span>
+          </div>
+          <h3 class="project-title">Controle de Despesas</h3>
+          <p class="project-desc">
+            Sistema de controle de gastos pessoais desenvolvido em Java, praticando
+            condicionais, loops, modularização e arrays paralelos.
+          </p>
+          <div class="project-footer">
+            <a href="#" class="project-link">Ver código →</a>
+          </div>
+        </div>
+
+        <!-- PROJETO 3 —  -->
+        <div class="project-card project-card--placeholder">
+          <div class="project-header">
+            <span class="project-tag">Em breve</span>
+          </div>
+          <h3 class="project-title">Próximo Projeto</h3>
+          <p class="project-desc">
+            Em produção.
+          </p>
+          <div class="project-footer">
+            <span class="project-link muted">Em desenvolvimento...</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="contato" id="contato">
+    <div class="container contato-inner">
+      <div class="section-label">// vamos conversar</div>
+      <h2 class="section-title">Contato<span class="c-pink">.</span></h2>
+      <p class="contato-desc">
+        Aberto a oportunidades de estágio, projetos e colaborações.
+        Me manda uma mensagem!
+      </p>
+      <div class="contato-links">
+        <a href="mailto:seuemail@email.com" class="contato-card">
+          <span class="contato-icon">✉</span>
+          <span>joaquimguellisdev@gmail.com</span>
+        </a>
+        <a href="https://github.com/seuusuario" target="_blank" class="contato-card">
+          <span class="contato-icon">⌥</span>
+          <span>https://github.com/joaquimGuellis</span>
+        </a>
+        <a href="https://linkedin.com/in/seuusuario" target="_blank" class="contato-card">
+          <span class="contato-icon">in</span>
+          <span>linkedin.com/in/joaquim-guellis-martins-757a99398/</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Feito com <span class="c-pink">♥</span> por <span class="c-green">Joaquim</span> · <span class="c-cyan">2026</span></p>
+  </footer>
+
+  <script>
+    // Cursor personalizado
+    const cursor = document.querySelector('.cursor');
+    const trail = document.querySelector('.cursor-trail');
+    document.addEventListener('mousemove', e => {
+      cursor.style.left = e.clientX + 'px';
+      cursor.style.top = e.clientY + 'px';
+      setTimeout(() => {
+        trail.style.left = e.clientX + 'px';
+        trail.style.top = e.clientY + 'px';
+      }, 80);
+    });
+
+    // Hover no cursor sobre links/botões
+    document.querySelectorAll('a, button, .skill-card, .project-card').forEach(el => {
+      el.addEventListener('mouseenter', () => cursor.classList.add('cursor--hover'));
+      el.addEventListener('mouseleave', () => cursor.classList.remove('cursor--hover'));
+    });
+
+    // Animação de entrada nas sections
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.skill-card, .project-card, .stat-card, .contato-card').forEach(el => observer.observe(el));
+
+    // Barra de skills animada ao aparecer
+    const skillObserver = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) e.target.querySelector('.skill-fill')?.classList.add('animate');
+      });
+    }, { threshold: 0.3 });
+    document.querySelectorAll('.skill-card').forEach(el => skillObserver.observe(el));
+  </script>
+
+</body>
+</html>
