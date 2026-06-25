@@ -4,6 +4,8 @@ Página web de portfólio desenvolvida do zero com HTML e CSS puro, hospedada vi
 
 ## 🚀 Acesse
 
+👉 [https://joaquimguellis.github.io/MyWebPage-Projeto/](https://joaquimguellis.github.io/MyWebPage-Projeto/)
+
 👉 [https://github.com/joaquimGuellis/MyWebPage-Projeto](https://github.com/joaquimGuellis/MyWebPage-Projeto) 
 
 [📄 Currículo - Dracula Theme ](./curriculo_joaquim_guellis_DraculaTheme)
